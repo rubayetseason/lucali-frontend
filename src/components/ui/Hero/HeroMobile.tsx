@@ -13,7 +13,7 @@ const HeroMobile = () => {
       />
       <div className="w-full absolute top-1/2 left-1/2 z-40 transform -translate-x-1/2 -translate-y-1/2">
         <h1
-          className={` ${styles.text} italic text-center font-bold text-4xl md:text-5xl mb-4 tracking-wider px-2`}
+          className={` ${styles.text} italic text-center font-bold text-3xl md:text-4xl mb-4 tracking-wider px-2`}
           data-aos="fade-down"
           data-aos-delay="300"
         >
