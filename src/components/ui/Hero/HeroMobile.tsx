@@ -9,11 +9,11 @@ const HeroMobile = () => {
       <Image
         src={hero}
         alt="hero-1"
-        className="h-screen object-cover relative brightness-[0.4]"
+        className="w-screen h-screen object-cover relative brightness-[0.4]"
       />
       <div className="w-full absolute top-1/2 left-1/2 z-40 transform -translate-x-1/2 -translate-y-1/2">
         <h1
-          className={` ${styles.text} italic text-center font-bold text-5xl mb-4 tracking-wider`}
+          className={` ${styles.text} italic text-center font-bold text-4xl md:text-5xl mb-4 tracking-wider px-2`}
           data-aos="fade-down"
           data-aos-delay="300"
         >
